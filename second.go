@@ -5,8 +5,6 @@ import(
 	"net/http"
 )
 
-var router = mux.NewRouter()
-
 func Serve() {
     http.Handle("/", router)
 }
